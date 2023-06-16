@@ -5,8 +5,8 @@ const randomNumber2 = Math.ceil(Math.random() * 6);
 console.log(randomNumber1);
 console.log(randomNumber2);
 
-const randomImageSrc1 = "/images/dice"+ randomNumber1 +".png"
-const randomImageSrc2 = "/images/dice"+ randomNumber2 +".png"
+const randomImageSrc1 = "./images/dice"+ randomNumber1 +".png"
+const randomImageSrc2 = "./images/dice"+ randomNumber2 +".png"
 
 const img1_source = document.querySelector(".img1");
 const img2_source = document.querySelector(".img2");
